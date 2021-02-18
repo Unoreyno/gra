@@ -43,13 +43,16 @@ public class App {
                     int zk = r.nextInt(3);
                     if(zk == 0){
                         System.out.println("Wylosowałem kamień, zremisowaliśmy");
-                        wynikR =+ 1;
+                        wynikR += 1;
+                        
                     }else if(zk == 1){
                         System.out.println("Wylosowałem papier, przegrałeś");
-                        wynikP =+ 1;
+                        wynikP += 1;
+                        
                     }else{
                         System.out.println("Wylosowałem nożyce, wygrałeś");
-                        wynikW =+ 1;
+                        wynikW += 1;
+                        
                     }
 
                     break;
@@ -58,14 +61,16 @@ public class App {
                     int zp =r.nextInt(3);
                     if(zp == 0){
                         System.out.println("Wylosowałem kamień, wygrałeś");
-                        wynikW =+ 1;
-                    
+                        wynikW += 1;
+                        
                     }else if(zp == 1){
                         System.out.println("Wylosowałem papier, zremisowaliśmy");
-                        wynikR =+ 1;
+                        wynikR += 1;
+                        
                     }else{
                         System.out.println("Wylosowałem nożyce, przegrałeś");
-                        wynikP =+ 1;
+                        wynikP += 1;
+                        
                     }
 
                     break;
@@ -74,14 +79,16 @@ public class App {
                     int zn =r.nextInt(3);
                     if(zn == 0){
                         System.out.println("Wylosowałem kamień, przegrałeś");
-                        wynikP =+ 1;
-                    
+                        wynikP += 1;
+                        
                     }else if(zn == 1){
                         System.out.println("Wylosowałem papier, wygrałeś");
-                        wynikW =+ 1;
+                        wynikW += 1;
+                        
                     }else{
                         System.out.println("Wylosowałem nożyce, zremisowaliśmy");
-                        wynikR =+ 1;
+                        wynikR += 1;
+                        
                     }
 
                     break;
