@@ -40,7 +40,7 @@ public class App {
             switch(znak){
                 case "k":
                     System.out.println("Wybrałeś kamień");
-                    int zk = r.nextInt(3);
+                    int zk = r.nextInt(3); // losuje
                     if(zk == 0){
                         System.out.println("Wylosowałem kamień, zremisowaliśmy");
                         wynikR += 1;
@@ -58,7 +58,7 @@ public class App {
                     break;
                 case "p":
                     System.out.println("Wybrałeś  papier");
-                    int zp =r.nextInt(3);
+                    int zp =r.nextInt(3); // losuje
                     if(zp == 0){
                         System.out.println("Wylosowałem kamień, wygrałeś");
                         wynikW += 1;
@@ -76,7 +76,7 @@ public class App {
                     break;
                 case "n":
                     System.out.println("Wybrałeś  nożyce");
-                    int zn =r.nextInt(3);
+                    int zn =r.nextInt(3); // losuje
                     if(zn == 0){
                         System.out.println("Wylosowałem kamień, przegrałeś");
                         wynikP += 1;
